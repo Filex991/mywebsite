@@ -1,0 +1,652 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group Number 6</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; line-height: 1.6; }
+
+    .carousel { width: 100%; height: 300px; overflow: hidden; position: relative; }
+    .carousel img { width: 100%; height: 300px; object-fit: cover; animation: slide 16s infinite; }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      100% { transform: translateX(0); }
+    }
+    .carousel-inner { display: flex; width: 400%; }
+    .section { padding: 2rem; background: white; margin: 1rem auto; width: 95%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .members { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; text-align: center; }
+    .members div { background: #dff9fb; padding: 1rem; border-radius: 10px; }
+    .form-section form { display: grid; gap: 1rem; }
+    .form-section input, .form-section textarea { padding: 0.8rem; border-radius: 5px; border: 1px solid #ccc; }
+    .form-section button { background: #2e86de; color: white; padding: 1rem; border: none; border-radius: 5px; font-size: 1rem; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 1rem; margin-top: 2rem; font-size: 0.9rem; }
+    .fixed-buttons { position: fixed; right: 10px; bottom: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 1000; }
+    .fixed-buttons a { background: #25d366; color: white; padding: 0.8rem 1rem; border-radius: 50px; display: flex; align-items: center; text-decoration: none; font-size: 0.9rem; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .fixed-buttons a.comment { background: #f39c12; }
+  </style>
+</head>
+<body class="pt-20">
+  <header>
+    
+
+<nav class="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-900 to-blue-700 shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 font-[Poppins]">
+    <div class="flex justify-between items-center">
+      
+      <!-- Icon and Group Info -->
+      <div class="flex items-center space-x-4">
+        <!-- Academic Cap Icon -->
+        <div class="bg-yellow-400 p-2 rounded-full shadow">
+          <svg class="w-8 h-8 text-blue-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0v6" />
+          </svg>
+        </div>
+        <!-- Group and University Text -->
+        <div class="text-white">
+          <h1 class="text-xl md:text-2xl font-bold tracking-wider uppercase">GROUP NUMBER 6</h1>
+          <p class="text-sm md:text-base text-yellow-300">St. Augustine University of Tanzania (SAUT)</p>
+        </div>
+      </div>
+      
+      <!-- Mobile Icon -->
+      <div class="md:hidden">
+        <svg class="w-7 h-7 text-yellow-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </div>
+      
+    </div>
+  </div>
+</nav>  
+    
+   
+  <div class="carousel">
+    <div class="carousel-inner">
+      <img src="p.jpg" />
+      <img src="2.jpg" />
+      <img src="3.jpg" />
+      <img src="4.jpg" />
+        <img src="hh.jpg" />
+    </div>
+  </div>  
+  
+  
+  <!-- Google Font --><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"><!-- Special Thanks Section --><section class="py-16 px-6 bg-gradient-to-b from-blue-50 to-white font-[Roboto]">
+  <div class="max-w-4xl mx-auto">
+    <div class="bg-white shadow-lg rounded-2xl p-8 border-l-8 border-blue-600">
+      <div class="flex items-center mb-4">
+        <div class="bg-blue-600 p-3 rounded-full">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h2 class="text-2xl text-blue-900 font-bold ml-4">Special Appreciation</h2>
+      </div><p class="text-gray-700 text-lg leading-relaxed">
+    We extend our heartfelt gratitude and deep appreciation to the outstanding leadership and support shown by our
+    Group Chair <span class="text-blue-700 font-semibold">Uwezo Shabani</span>, Assistant Chair <span class="text-blue-700 font-semibold">Eugene Saibulu</span>, and our
+    well-organized member <span class="text-blue-700 font-semibold">John Esau</span>. Your dedication, accountability, and
+    unwavering commitment to the group’s goals have greatly contributed to the success and collaboration
+    within our academic project. 
+    <br><br>
+    Your tireless efforts in coordinating tasks, resolving issues, and fostering unity among members have made a
+    remarkable impact on the quality of our work. We recognize your contributions not only in the organization of our
+    work, but in lifting the morale of the entire team.
+    <br><br>
+    This section stands as a permanent token of appreciation for your exemplary responsibility and teamwork. May
+    this spirit of commitment continue to inspire not just our current group, but all future student teams as well.
+    <br><br>
+    Thank you once again for your leadership and excellence. Together, we build something meaningful and lasting.
+  </p>
+
+  <div class="mt-6 text-right">
+    <span class="text-blue-500 font-medium">With gratitude,</span><br>
+    <span class="text-gray-600">GROUP NUMBER 6</span>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Group Members Section -->
+<section class="bg-gradient-to-br from-blue-50 to-purple-100 py-12 font-[Poppins]">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold text-purple-800 mb-8">Group 6 Members</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Member Cards -->
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-blue-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Filex Thomas Kuyan</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-indigo-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Eugen Stephen Saibulu</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-pink-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">John Essau James</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-green-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Elibariki Zablon Matra</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-yellow-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Mwanaidi Waziri Abasi</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-red-400">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Godfrid Joseph Nkosa</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-purple-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Sophia Frank Mollel</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-pink-400">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Agape Gadiel Nnko</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-emerald-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Constantini Uwezo Shaban</p>
+        </div>
+      </div>
+      
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all border-l-4 border-cyan-500">
+        <div class="flex items-center gap-3">
+          <svg class="w-6 h-6 text-cyan-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A7.5 7.5 0 0112 15.75m0 0a7.5 7.5 0 016.879 2.054M12 15.75V9.75m0-6.75a3 3 0 110 6 3 3 0 010-6z" />
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Kulwa Julius Magembe</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Designer's Purpose Section -->
+<section class="bg-gradient-to-tr from-purple-50 to-blue-100 py-12 font-[Quicksand]">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="bg-white shadow-xl rounded-xl p-8 border-l-4 border-blue-500">
+      <h2 class="text-3xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+        <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 20h9m-9 0H3m9 0v-4m0 4V4m0 0l3.5 3.5M12 4L8.5 7.5" />
+        </svg>
+        My Purpose – By Filex Thomas
+      </h2>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        As Filex Thomas, the visionary behind this page, my purpose was to create a visually engaging, informative, and functional platform that highlights the hard work, unity, and organizational success of our group at St. Augustine University of Tanzania. This website not only serves as a digital record of our collaborative journey but also as a showcase of web design creativity, modern frontend techniques, and appreciation for my teammates. I aimed to build an interface that’s responsive, appealing, and accessible to both academic and professional audiences. Through this design, I express gratitude to the group leaders for their outstanding coordination, and I also demonstrate my passion for using digital tools to bring ideas to life. My goal was not just aesthetics, but a meaningful presentation that reflects our teamwork and the values we uphold. Every section, color, and icon was chosen with care to honor our collective efforts.
+      </p>
+    </div>
+  </div>
+</section>
+  
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- What I Need From You Section -->
+<section class="bg-gradient-to-b from-blue-50 to-purple-100 py-12 px-4 font-[Poppins]">
+  <div class="max-w-5xl mx-auto">
+    <div class="bg-white shadow-2xl rounded-xl p-8 border-l-4 border-purple-500">
+      <h2 class="text-3xl font-bold text-purple-700 mb-6 flex items-center gap-3">
+        <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 20h9m-9 0H3m9 0v-4m0 4V4m0 0l3.5 3.5M12 4L8.5 7.5" />
+        </svg>
+        What I Need From You – Group Contribution Guide
+      </h2>
+
+      <p class="text-gray-700 mb-6 text-lg">
+        To improve our group page and make it truly collaborative, here are 10 suggestions where your ideas and participation are highly needed. After reviewing, please submit your input through the <span class="font-semibold text-blue-600">suggestion form below</span>.
+      </p>
+
+      <ul class="space-y-5">
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">1.</span>
+          <div>
+            <strong class="text-purple-800">Suggest New Content:</strong> Recommend sections to add, such as group history, photos, or achievements.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">2.</span>
+          <div>
+            <strong class="text-purple-800">Propose a Chatbot Idea:</strong> Share new chatbot topics (e.g., academic guidance, travel help).
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">3.</span>
+          <div>
+            <strong class="text-purple-800">Design Elements:</strong> Choose color themes, animation suggestions, or new icons to improve visuals.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">4.</span>
+          <div>
+            <strong class="text-purple-800">Group Timeline:</strong> Suggest adding a timeline showing our activities and milestones.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">5.</span>
+          <div>
+            <strong class="text-purple-800">Quotes or Testimonials:</strong> Submit quotes that represent our teamwork or statements from members.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">6.</span>
+          <div>
+            <strong class="text-purple-800">Photo Upload Ideas:</strong> Propose where we can display group photos, e.g., carousel or gallery.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">7.</span>
+          <div>
+            <strong class="text-purple-800">Add a Fun Section:</strong> Ideas like “Group Trivia”, birthdays, or fun facts about members.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">8.</span>
+          <div>
+            <strong class="text-purple-800">Useful Links:</strong> Suggest links to university tools, academic materials, or external resources.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">9.</span>
+          <div>
+            <strong class="text-purple-800">Language Options:</strong> Recommend supporting Swahili or other languages for accessibility.
+          </div>
+        </li>
+
+        <li class="flex items-start gap-3">
+          <span class="text-purple-600 text-xl">10.</span>
+          <div>
+            <strong class="text-purple-800">Your Vision:</strong> Share any personal idea or design you wish to see featured.
+          </div>
+        </li>
+      </ul>
+
+      <div class="mt-8 text-center">
+        <p class="text-md text-gray-700 mb-2">
+          <span class="text-purple-700 font-semibold">Your voice matters!</span> Head to the form section and let us know your suggestions and ideas.
+        </p>
+        <svg class="w-10 h-10 mx-auto text-purple-400 animate-bounce mt-2" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M19 9l-7 7-7-7" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+   
+  
+  <section class="bg-gradient-to-r from-indigo-50 to-blue-100 py-10 px-6 rounded-xl shadow-lg max-w-3xl mx-auto">
+  <h2 class="text-3xl font-bold text-center text-indigo-700 mb-6 flex items-center justify-center gap-2">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+    </svg>
+    Share Your Feedback with Us
+  </h2>
+  
+  <form id="feedbackForm" action="https://formspree.io/f/mdkgblqr" method="POST" class="space-y-6">
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">Full Name</label>
+      <div class="flex items-center bg-white rounded-lg border px-3 py-2 shadow-sm">
+        <svg class="h-5 w-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.879 6.196 9 9 0 015.121 17.804z" />
+        </svg>
+        <input name="fullName" id="fullName" type="text" required placeholder="Enter your name" class="w-full outline-none bg-transparent" />
+      </div>
+    </div>
+    
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">Email Address</label>
+      <div class="flex items-center bg-white rounded-lg border px-3 py-2 shadow-sm">
+        <svg class="h-5 w-5 text-gray-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m0 0l4-4m0 4l-4 4" />
+        </svg>
+        <input name="email" type="email" required placeholder="you@example.com" class="w-full outline-none bg-transparent" />
+      </div>
+    </div>
+    
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">Proposal</label>
+      <textarea name="proposal" rows="3" required class="w-full rounded-lg border p-3 shadow-sm focus:ring-2 focus:ring-indigo-300" placeholder="Share your ideas or proposal here..."></textarea>
+    </div>
+    
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">Challenge</label>
+      <textarea name="challenge" rows="3" required class="w-full rounded-lg border p-3 shadow-sm focus:ring-2 focus:ring-indigo-300" placeholder="Describe any challenge you faced..."></textarea>
+    </div>
+    
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">Was this page helpful?</label>
+      <div class="flex gap-6 items-center mt-2">
+        <label class="flex items-center gap-2 text-green-600">
+          <input type="radio" name="helpful" value="Helpful" required />
+          Helpful
+        </label>
+        <label class="flex items-center gap-2 text-red-500">
+          <input type="radio" name="helpful" value="Not Helpful" />
+          Not Helpful
+        </label>
+      </div>
+    </div>
+    
+    <div>
+      <label class="block text-gray-700 font-semibold mb-1">If Not Helpful, Why?</label>
+      <textarea name="reason" rows="2" class="w-full rounded-lg border p-3 shadow-sm focus:ring-2 focus:ring-red-300" placeholder="Tell us how to improve..."></textarea>
+    </div>
+    
+    <div class="text-center mt-6">
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition flex items-center justify-center gap-2 mx-auto">
+        <svg id="spinner" class="hidden animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
+        </svg>
+        <span>Submit</span>
+      </button>
+    </div>
+  </form>
+  
+  <div id="thankYouCard" class="hidden mt-8 bg-green-100 border border-green-400 p-6 rounded-xl shadow text-center">
+    <h3 class="text-xl font-bold text-green-700" id="thankYouMessage"></h3>
+    <p class="text-green-800">We truly appreciate your input!</p>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('feedbackForm');
+  const spinner = document.getElementById('spinner');
+  const thankYouCard = document.getElementById('thankYouCard');
+  const thankYouMessage = document.getElementById('thankYouMessage');
+  
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    spinner.classList.remove('hidden');
+    
+    const formData = new FormData(form);
+    const fullName = formData.get('fullName');
+    
+    try {
+      await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      
+      form.reset();
+      thankYouMessage.textContent = `Thank you ${fullName}, Filex received your message.`;
+      thankYouCard.classList.remove('hidden');
+    } catch (error) {
+      thankYouMessage.textContent = 'Oops! Something went wrong. Please try again.';
+      thankYouCard.classList.remove('hidden');
+    } finally {
+      spinner.classList.add('hidden');
+    }
+  });
+</script>
+  
+  
+  
+  
+  
+  
+  
+  <!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group 6 National Parks Chatbot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    const parks = {
+      serengeti: `The Serengeti National Park is one of the most iconic wildlife destinations in the world. Located in northern Tanzania, it covers approximately 14,763 square kilometers and is home to the legendary Great Migration, where millions of wildebeest, zebras, and gazelles cross the plains in search of fresh grazing. The Serengeti is characterized by endless savannas, acacia trees, and a stunning diversity of wildlife, including lions, cheetahs, elephants, giraffes, and over 500 bird species. The best time to visit is between June and October when the migration is in full swing. This park offers not only extraordinary wildlife experiences but also breathtaking sunsets and a deep connection to the natural world.`,manyara: `Lake Manyara National Park, though smaller in size at just 330 square kilometers, offers a remarkably diverse ecosystem. Nestled at the base of the Great Rift Valley escarpment, this park is renowned for its tree-climbing lions, large flocks of flamingos, and hippo-filled waters. The lake itself covers two-thirds of the park, creating a beautiful wetland habitat that attracts countless bird species. The lush groundwater forest near the entrance is teeming with baboons, blue monkeys, and hornbills. It's a fantastic destination for bird lovers and photographers. The best time to visit is during the dry season from June to October, when animals are easier to spot.`,
+
+  tarangire: `Tarangire National Park is known for its towering baobab trees, rolling savannah, and large elephant herds. Spanning 2,850 square kilometers, it is located in northern Tanzania and provides an incredible wilderness experience. During the dry season from June to October, the Tarangire River becomes the only water source, attracting vast numbers of animals including zebras, wildebeests, lions, and over 500 species of birds. The park’s unique feature is its impressive elephant migration and the scenic beauty of its landscape. The quieter ambiance compared to nearby parks makes it a hidden gem.`,
+
+  ruaha: `Ruaha National Park is the largest national park in Tanzania, covering over 20,000 square kilometers. It is located in central Tanzania and is less visited, offering an untouched and authentic safari experience. Ruaha is rich in wildlife diversity, featuring large populations of lions, leopards, elephants, and rare species like wild dogs. The Great Ruaha River provides a lifeline during the dry season. The park is also home to over 570 bird species. The best time to visit is from June to October for wildlife viewing. Ruaha’s remoteness and rugged landscapes provide an adventurous and rewarding safari.`,
+
+  mikumi: `Mikumi National Park, adjacent to the Selous Game Reserve in southern Tanzania, is easily accessible from Dar es Salaam. It covers about 3,230 square kilometers and offers a varied terrain of open grasslands, swamps, and wooded hills. The park is home to elephants, lions, zebras, giraffes, hippos, and crocodiles. Mikumi’s proximity to urban areas makes it ideal for short safaris. The best time to visit is during the dry season (June to October) when animals gather around water sources. The Mkata floodplain is particularly good for observing wildlife against the backdrop of the Uluguru Mountains.`,
+
+  katavi: `Katavi National Park is located in the remote western region of Tanzania and spans around 4,471 square kilometers. It is one of the least visited parks, offering an exclusive and wild safari experience. Katavi is renowned for its large hippo pods, buffalo herds, and crocodile-infested rivers. During the dry season, animals congregate in great numbers around shrinking waterholes, creating intense wildlife drama. It also offers sightings of lions, leopards, elephants, and diverse birdlife. The best time to visit is from June to October. Katavi is perfect for those seeking solitude and raw wilderness.`,
+
+  udzungwa: `Udzungwa Mountains National Park is a biodiversity hotspot and part of the Eastern Arc Mountains. Unlike traditional savannah parks, Udzungwa is a forested park known for hiking, waterfalls, and endemic species. Covering 1,990 square kilometers, it supports a wide range of flora and fauna, including the rare Sanje mangabey and Iringa red colobus monkeys. The park has no roads, encouraging exploration on foot. The 170-meter Sanje Waterfall is a highlight. The best time to visit is during the dry season from June to October. Udzungwa offers a unique trekking and nature experience unlike anywhere else in Tanzania.`,
+
+  selous: `The Selous Game Reserve, now part of Nyerere National Park, is the largest protected area in Africa, covering over 50,000 square kilometers. Located in southern Tanzania, it offers a diverse landscape of rivers, swamps, grasslands, and woodlands. Selous is home to elephants, lions, leopards, giraffes, wild dogs, and numerous bird species. Boat safaris on the Rufiji River offer a different wildlife viewing perspective. The reserve remains uncrowded, making it ideal for those looking for seclusion. The best time to visit is from June to October. Selous delivers an adventurous safari in a vast and untamed setting.`,
+
+  arusha: `Arusha National Park, although small at 137 square kilometers, offers incredible ecological diversity. Located near the city of Arusha and Mount Meru, it features forests, lakes, waterfalls, and volcanic craters. The park is home to colobus monkeys, giraffes, zebras, and flamingos. Canoeing on Momella Lakes and hiking Mount Meru are popular activities. The park’s scenic beauty and its proximity to Kilimanjaro make it a great day-trip destination. The best time to visit is during the dry season (June to October), but it remains accessible year-round due to its convenient location.`,
+
+  kilimanjaro: `Kilimanjaro National Park is home to Africa’s tallest mountain, Mount Kilimanjaro. It encompasses a range of ecosystems from tropical forests to alpine deserts and glaciers. The park attracts climbers from all over the world aiming to summit the 5,895-meter peak. Wildlife includes elephants, buffaloes, and monkeys in the lower slopes. The best time to climb is during the dry months (January to March and June to October). The park is not only a climbing destination but also offers scenic beauty and cultural experiences with the Chagga people living nearby.`,
+
+  gombe: `Gombe Stream National Park is famous for the groundbreaking chimpanzee research by Jane Goodall. Located on the shores of Lake Tanganyika, it covers just 52 square kilometers. The park is densely forested and best explored on foot. Besides chimpanzees, visitors can see olive baboons, red colobus, and a variety of birds. Boat access makes it a secluded experience. Trekking to see habituated chimpanzee groups is the main attraction. The best time to visit is from July to October when the forest is less dense. Gombe offers an intimate and scientific wildlife experience.`,
+
+  mahale: `Mahale Mountains National Park is another prime chimpanzee trekking destination, set on the shores of Lake Tanganyika. It spans 1,613 square kilometers and offers a combination of beach, forest, and mountains. The park has no roads, ensuring a pristine environment. Besides chimpanzees, the park hosts leopards, warthogs, and hundreds of bird species. Boat access enhances its remoteness. Activities include trekking, kayaking, and snorkeling. The best time to visit is the dry season from May to October. Mahale is ideal for adventurous travelers seeking off-the-beaten-path nature immersion.`,
+
+  saadan: `Saadani National Park uniquely combines beach and bush, located on the Indian Ocean coastline. It spans about 1,100 square kilometers and is the only Tanzanian park where you can see wildlife and swim in the sea. Elephants, lions, giraffes, hippos, and crocodiles inhabit the park. Birdlife is also abundant, especially in the mangroves. The Wami River provides boat safari opportunities. It is best visited during the dry season from June to October. Saadani offers a rare mix of coastal beauty and wildlife in one destination.`,
+
+  burigi: `Burigi-Chato National Park, established recently, is located in the Lake Victoria zone. It covers over 4,700 square kilometers and features wetlands, lakes, forests, and savannah. It offers opportunities for boating, fishing, and wildlife viewing. The park is home to elephants, giraffes, antelopes, and rich birdlife. Its remote and undeveloped character means fewer tourists and a sense of exclusivity. The best time to visit is from June to October. Burigi-Chato is a rising gem among Tanzania’s protected areas.`
+};
+
+function respondToPark(message) {
+  const container = document.getElementById("chat-box");
+  const lowerMessage = message.toLowerCase();
+  const keys = Object.keys(parks);
+  let found = false;
+  keys.forEach((key) => {
+    if (lowerMessage.includes(key)) {
+      found = true;
+      showTyping();
+      setTimeout(() => addBotMessage(parks[key]), 1000);
+    }
+  });
+  if (!found) {
+    showTyping();
+    setTimeout(() => addBotMessage("Sorry, I don't recognize that park. Please try asking about Serengeti, Manyara, Tarangire, or other Tanzanian national parks."), 1000);
+  }
+}
+
+function addUserMessage(message) {
+  const container = document.getElementById("chat-box");
+  container.innerHTML += `<div class='text-right mb-2'><div class='inline-block bg-blue-500 text-white px-4 py-2 rounded-lg max-w-xs'>${message}</div></div>`;
+  respondToPark(message);
+}
+
+function addBotMessage(message) {
+  const container = document.getElementById("chat-box");
+  const typing = document.getElementById("typing");
+  if (typing) typing.remove();
+  container.innerHTML += `<div class='text-left mb-2'><div class='inline-block bg-gray-200 text-black px-4 py-2 rounded-lg max-w-xs'>${message}</div></div>`;
+  container.scrollTop = container.scrollHeight;
+}
+
+function showTyping() {
+  const container = document.getElementById("chat-box");
+  container.innerHTML += `<div id='typing' class='text-left mb-2'><div class='inline-block bg-gray-300 text-black px-4 py-2 rounded-lg max-w-xs'>Typing...</div></div>`;
+  container.scrollTop = container.scrollHeight;
+}
+
+function handleSubmit(e) {
+  e.preventDefault();
+  const input = document.getElementById("chat-input");
+  const message = input.value.trim();
+  if (message) {
+    addUserMessage(message);
+    input.value = "";
+  }
+}
+
+window.onload = function () {
+  addBotMessage("Hello! Welcome to Group Number 6 National Parks Chatbot. Ask me about any Tanzanian national park (e.g., Serengeti, Manyara), and I will tell you all about it, including the best time to visit.");
+}
+
+  </script>
+</head>
+<body class="bg-gradient-to-b from-white to-green-100 min-h-screen font-sans">
+  <section class="max-w-2xl mx-auto mt-10 p-5 bg-white rounded-xl shadow-lg">
+    <h2 class="text-2xl font-bold mb-4 text-center text-green-700 flex items-center justify-center gap-2">
+      <svg class="w-6 h-6 text-green-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M12 4h9"></path><path d="M4 4h9v16H4z"></path></svg>
+      GROUP NUMBER 6 - Tanzania National Parks Chatbot
+    </h2>
+    <div id="chat-box" class="bg-gray-50 h-80 overflow-y-auto rounded-md p-3 border border-green-300 mb-4"></div>
+    <form onsubmit="handleSubmit(event)" class="flex gap-2">
+      <input type="text" id="chat-input" placeholder="Type a park name..." class="flex-1 border border-green-400 rounded-md px-3 py-2 focus:outline-none focus:ring focus:border-green-600">
+      <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">Send</button>
+    </form>
+  </section>
+</body>
+</html>
+  
+  <!-- Rate Me Section with Tailwind CSS and Formspree --><section class="bg-white py-12 px-6 md:px-16" id="rate-me">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-indigo-700 mb-2">Rate My Work</h2>
+    <p class="text-gray-600 mb-6">Please let me know how helpful this page was for you. Your feedback helps me improve!</p><form action="https://formspree.io/f/mdkgblqr" method="POST" class="bg-gray-50 shadow-md rounded-xl p-6">
+  <div class="flex justify-center space-x-2 mb-4" id="star-rating">
+    <label><input type="radio" name="rating" value="1" class="hidden peer" required><span class="text-2xl cursor-pointer peer-checked:text-yellow-400">★</span></label>
+    <label><input type="radio" name="rating" value="2" class="hidden peer"><span class="text-2xl cursor-pointer peer-checked:text-yellow-400">★</span></label>
+    <label><input type="radio" name="rating" value="3" class="hidden peer"><span class="text-2xl cursor-pointer peer-checked:text-yellow-400">★</span></label>
+    <label><input type="radio" name="rating" value="4" class="hidden peer"><span class="text-2xl cursor-pointer peer-checked:text-yellow-400">★</span></label>
+    <label><input type="radio" name="rating" value="5" class="hidden peer"><span class="text-2xl cursor-pointer peer-checked:text-yellow-400">★</span></label>
+  </div>
+
+  <div class="mb-4">
+    <input type="text" name="full_name" placeholder="Full Name" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400">
+  </div>
+  <div class="mb-4">
+    <textarea name="comments" placeholder="Your comments..." rows="4" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
+  </div>
+
+  <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 flex items-center justify-center">
+    <svg class="animate-spin hidden mr-2 h-5 w-5 text-white" id="spinner" fill="none" viewBox="0 0 24 24">
+      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+    </svg>
+    Submit Feedback
+  </button>
+</form>
+
+<div id="thankYouCard" class="mt-6 hidden p-4 bg-green-100 border-l-4 border-green-500 text-green-700">
+  <p id="thankYouMessage"></p>
+</div>
+
+  </div>
+</section><script>
+  const form = document.querySelector("form");
+  const spinner = document.getElementById("spinner");
+  const thankYouCard = document.getElementById("thankYouCard");
+  const thankYouMessage = document.getElementById("thankYouMessage");
+
+  form.addEventListener("submit", function (e) {
+    const name = form.querySelector("input[name='full_name']").value;
+    spinner.classList.remove("hidden");
+    setTimeout(() => {
+      spinner.classList.add("hidden");
+      thankYouCard.classList.remove("hidden");
+      thankYouMessage.textContent = `Thank you ${name}, Filex received your message.`;
+    }, 2000);
+  });
+</script>
+  
+
+<!-- Footer Section --><footer class="bg-gradient-to-r from-purple-800 to-indigo-900 text-white py-8 mt-12">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">Designer</h2>
+      <p class="text-lg"><i class="fas fa-code mr-2"></i>Filex Thomas</p>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">Group Leadership</h2>
+      <ul class="space-y-2">
+        <li><i class="fas fa-user-tie mr-2"></i><strong>Chairperson:</strong> Uwezo Shabani</li>
+        <li><i class="fas fa-user-check mr-2"></i><strong>Assistant Chairperson:</strong> Eugene Saibulu</li>
+        <li><i class="fas fa-user-pen mr-2"></i><strong>Secretary:</strong> Agape Nnko</li>
+        <li><i class="fas fa-user-cog mr-2"></i><strong>Coordinator:</strong> John Esau</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">Connect</h2>
+      <p class="text-sm">This website was designed with purpose and teamwork. All group members are encouraged to contribute and share their feedback.</p>
+      <div class="mt-4">
+        <a href="#" class="text-blue-300 hover:text-white underline">Back to Top</a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center text-sm mt-6 text-gray-300">&copy; 2025 Group Number 6 - All Rights Reserved.</div>
+</footer>
+<div class="fixed-buttons">
+    <a href="https://wa.me/255772350147" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="#" class="comment"><i class="fas fa-comment-dots"></i> APPRECIATE</a>
+  </div>  <script>
+    function showThankYou(e) {
+      e.preventDefault();
+      const name = e.target.name.value;
+      document.getElementById('thankYou').style.display = 'block';
+      document.getElementById('thankYou').innerHTML = `<strong>Thank you, ${name}!</strong> Your submission has been received.`;
+      e.target.reset();
+    }
+  </script></body>
+</html>
